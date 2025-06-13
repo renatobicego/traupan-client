@@ -5,9 +5,13 @@ import clsx from "clsx";
 import { Providers } from "./providers";
 
 import { siteConfig } from "@/config/site";
-import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  subsets: ["latin"],
+});
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
@@ -29,8 +33,8 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          "min-h-screen text-foreground bg-background font-sans antialiased",
-          fontSans.variable
+          "min-h-screen text-foreground bg-background font-sans antialiased w-screen",
+          roboto.className
         )}
       >
         <Providers>

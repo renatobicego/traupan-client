@@ -1,26 +1,38 @@
-export type SiteConfig = typeof siteConfig;
+const urls = {
+  main: "/",
+  catalog: "/catalogo",
+  about: "/sobre-nosotros",
+  contact: "/contacto",
+};
 
 export const siteConfig = {
   name: "Traupan",
   description: "Herramientas y máquinas para industrias.",
+  urls,
   navItems: [
     {
       label: "Catálogo",
-      href: "/catalogo",
+      href: urls.catalog,
     },
     {
       label: "Sobre Nosotros",
-      href: "/sobre-nosotros",
+      href: urls.about,
     },
   ],
   navMenuItems: [
     {
       label: "Catálogo",
-      href: "/catalogo",
+      href: urls.catalog,
     },
     {
       label: "Sobre Nosotros",
-      href: "/sobre-nosotros",
+      href: urls.about,
+    },
+    {
+      label: "Contacto",
+      href: urls.contact,
     },
   ],
 };
+
+export type SiteConfig = typeof siteConfig;

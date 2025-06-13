@@ -14,6 +14,7 @@ import clsx from "clsx";
 import { siteConfig } from "@/config/site";
 import { Logo } from "@/components/icons";
 import Button from "./button";
+import MobileMenu from "./mobile-menu";
 
 export const Navbar = () => {
   return (
@@ -21,10 +22,10 @@ export const Navbar = () => {
       maxWidth="xl"
       position="sticky"
       classNames={{
-        wrapper: "h-28",
+        wrapper: "h-28 px-0",
       }}
     >
-      <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
+      <NavbarContent className="basis-1/4 md:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
             <Logo />
@@ -33,10 +34,10 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent
-        className="hidden sm:flex basis-1/5 sm:basis-full"
+        className="hidden md:flex basis-1/5 md:basis-full"
         justify="end"
       >
-        <ul className="hidden lg:flex gap-4 justify-start ml-2">
+        <ul className="flex gap-4 justify-start ml-2">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <NextLink
@@ -53,6 +54,10 @@ export const Navbar = () => {
           ))}
         </ul>
         <Button color="secondary">Contacto</Button>
+      </NavbarContent>
+
+      <NavbarContent className="md:hidden" justify="end">
+        <MobileMenu />
       </NavbarContent>
 
       <NavbarMenu>
