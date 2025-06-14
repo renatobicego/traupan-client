@@ -5,7 +5,7 @@ import React from "react";
 
 const OurCatalog = () => {
   return (
-    <section className="flex flex-col items-center gap-4 w-full relative z-10">
+    <section className="flex flex-col items-center gap-4 w-full relative z-10 max-md:mb-16">
       <h2>Nuestro Catálogo</h2>
       <p className="md:w-2/3 xl:w-1/2 text-center">
         Ofrecemos una amplia selección de productos para el hogar, uso

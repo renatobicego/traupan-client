@@ -8,7 +8,7 @@ const Button = ({
   return (
     <HeroUIButton
       {...props}
-      className={`rounded-xl py-3 h-auto px-6 text-base ${props.className}`}
+      className={`rounded-xl py-3 h-auto px-6 md:text-base ${props.className}`}
       color={props.color || "primary"}
     >
       {children}

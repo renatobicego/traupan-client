@@ -22,8 +22,10 @@ export const Navbar = () => {
       maxWidth="xl"
       position="sticky"
       classNames={{
-        wrapper: "h-28 px-0",
+        wrapper: "h-28 px-0 ",
+        base: "padding-space",
       }}
+      isBlurred={false}
     >
       <NavbarContent className="basis-1/4 md:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
