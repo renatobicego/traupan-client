@@ -23,7 +23,7 @@ export default function Home() {
         alt="Fondo de Traupan con logo"
         width={1339}
         height={1339}
-        className="absolute top-[140vh] md:hidden"
+        className="absolute top-[140vh]  lg:top-[200vh] "
         unoptimized
       />
       <Image

@@ -7,11 +7,11 @@
 }
 
 main {
-  @apply flex flex-col items-center min-h-screen w-screen text-secondary padding-space;
+  @apply flex flex-col items-center min-h-screen w-screen text-secondary padding-space overflow-hidden;
 }
 
 section {
-  @apply w-full max-w-screen-xl md:py-16;
+  @apply w-full max-w-screen-xl md:py-8 lg:py-16;
 }
 
 h1 {

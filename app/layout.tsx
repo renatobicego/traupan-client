@@ -8,6 +8,7 @@ import { siteConfig } from "@/config/site";
 import { Navbar } from "@/components/navbar";
 
 import { Roboto } from "next/font/google";
+import Footer from "@/components/footer";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -33,13 +34,14 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          "min-h-screen text-foreground bg-background font-sans antialiased w-screen",
+          "min-h-screen text-foreground bg-background font-sans antialiased w-screen overflow-x-hidden",
           roboto.className
         )}
       >
         <Providers>
           <Navbar />
           {children}
+          <Footer />
         </Providers>
       </body>
     </html>
