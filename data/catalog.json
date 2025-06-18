@@ -1,0 +1,26 @@
+{
+    "catalog": [
+        {
+            "id": "impactools",
+            "title": "Herramientas Especiales \n Llaves y Herramientas para Servicio Pesado \n Llaves y Herramientas Antichispa",
+            "shortTitle": "Herramientas para servicio pesado y fabricación bajo plano",
+            "imgCover": "/catalogos/impactools/cover.png",
+            "imgLogo": "/catalogos/impactools/logo.png",
+            "url": "/catalogo/impactools",
+            "catalogUrls": [
+                {
+                    "url": "/catalogos/impactools/rubro18.htm",
+                    "title": "herramientas aisladas"
+                },
+                {
+                    "url": "/catalogos/impactools/rubro3.htm",
+                    "title": "herramientas servicio pesado"
+                },
+                {
+                    "url": "/catalogos/impactools/rubro4.htm",
+                    "title": "herramientas antichispa"
+                }
+            ]
+        }
+    ]
+}

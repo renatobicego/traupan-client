@@ -33,7 +33,7 @@ const ContactForm = () => {
   });
   return (
     <Form
-      className="flex w-full flex-col gap-4 lg:w-3/4 xl:w-1/2 bg-secondary px-12 py-8 rounded-2xl"
+      className="flex w-full flex-col gap-4 lg:w-3/4 xl:w-1/2 bg-secondary px-6 md:px-12 py-8 rounded-2xl"
       onSubmit={handleSubmit(onSubmit)}
     >
       <h5 className="heading4 text-white">Formulario de Contacto</h5>

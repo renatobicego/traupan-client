@@ -10,7 +10,7 @@ export const Logo: React.FC<
       {...props}
       width={300}
       height={228}
-      className="max-md:w-20 md:w-48 xl:w-64"
+      className="w-[50%] md:w-56 xl:w-64"
     />
   ) : (
     <Image
