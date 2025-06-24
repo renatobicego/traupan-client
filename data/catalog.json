@@ -21,6 +21,30 @@
                     "title": "herramientas antichispa"
                 }
             ]
+        },
+        {
+            "id": "herramientas-tornos",
+            "title": "Herramientas para Tornos",
+            "shortTitle": "Herramientas para Tornos",
+            "imgCover": "/catalogos/herramientas-tornos/cover.png",
+            "imgLogo": "/logo-traupan.png",
+            "url": "/catalogos/herramientas-tornos/rubro8.htm"
+        },
+        {
+            "id": "lubricacion",
+            "title": "Lubricacion",
+            "shortTitle": "Lubricacion",
+            "imgCover": "/catalogos/lubricacion/elementos_lubricacion.png",
+            "imgLogo": "/catalogos/lubricacion/image001.gif",
+            "url": "/catalogos/lubricacion/rubro11.htm"
+        },
+        {
+            "id": "escaleras",
+            "title": "Escaleras - Todas las Marcas",
+            "shortTitle": "Escaleras - Todas las Marcas",
+            "imgCover": "/catalogos/escaleras/cover.png",
+            "imgLogo": "/logo-traupan.png",
+            "url": "/catalogos/escaleras/rubro1.htm"
         }
     ]
 }
