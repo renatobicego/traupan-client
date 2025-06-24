@@ -30,7 +30,7 @@ export default async function CatalogDetailPage({
             : "Detalle del Catálogo"}
         </h1>
         <menu className="flex flex-col items-start justify-start gap-4">
-          {catalogItem.catalogUrls.map((url, index) => (
+          {catalogItem.catalogUrls?.map((url, index) => (
             <Button href={url.url} key={index} target="_blank" as={Link}>
               Ver Catálogo {url.title || `${index + 1}`}
             </Button>
