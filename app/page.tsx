@@ -15,7 +15,7 @@ export default function Home() {
         alt="Fondo de Traupan con logo"
         width={1339}
         height={1339}
-        className="absolute top-[80vh] md:top-[50vh]"
+        className="absolute max-md:object-cover max-md:h-screen top-[40vh]"
         unoptimized
       />
       <Image
@@ -23,15 +23,7 @@ export default function Home() {
         alt="Fondo de Traupan con logo"
         width={1339}
         height={1339}
-        className="absolute top-[140vh]  lg:top-[200vh] "
-        unoptimized
-      />
-      <Image
-        src="/fondo-traupan.png"
-        alt="Fondo de Traupan con logo"
-        width={1339}
-        height={1339}
-        className="absolute top-[200vh] md:hidden"
+        className="absolute max-md:object-cover max-md:h-screen top-[160vh]"
         unoptimized
       />
       <WeAreProviders />

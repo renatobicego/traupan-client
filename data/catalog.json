@@ -9,15 +9,17 @@
             "url": "/catalogo/impactools",
             "catalogUrls": [
                 {
-                    "url": "/catalogos/impactools/rubro18.htm",
-                    "title": "herramientas aisladas"
+                    "url": "/catalogos/impactools/cover.png",
+                    "title": "herramientas aisladas",
+                    "isImage": true,
+                    "sideText": "Consulte por herramientas aisladas especiales"
                 },
                 {
-                    "url": "/catalogos/impactools/rubro3.htm",
+                    "url": "/catalogos/impactools/servicio-pesado.pdf",
                     "title": "herramientas servicio pesado"
                 },
                 {
-                    "url": "/catalogos/impactools/rubro4.htm",
+                    "url": "/catalogos/impactools/Antichispa-catalogo.pdf",
                     "title": "herramientas antichispa"
                 }
             ]
