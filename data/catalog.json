@@ -47,6 +47,54 @@
             "imgCover": "/catalogos/escaleras/cover.png",
             "imgLogo": "/logo-traupan.png",
             "url": "/catalogos/escaleras/rubro1.htm"
+        },
+        {
+            "id": "stihil",
+            "title": "Productos STIHL",
+            "shortTitle": "Productos STIHL",
+            "imgCover": "/catalogos/stihl/cover.png",
+            "imgLogo": "/catalogos/stihl/logo.png",
+            "url": "https://www.stihl.com/en"
+        }, 
+        {
+            "id": "seguridad-industrial",
+            "title": "Seguridad Industrial - Todas las marcas líderes",
+            "shortTitle": "Seguridad Industrial",
+            "imgCover": "/catalogos/seguridad-industrial/image015.gif",
+            "imgLogo": "/logo-traupan.png",
+            "url": "/catalogos/seguridad-industrial/rubro16.htm"
+        }, 
+        {
+            "id": "petrolera",
+            "title": "Herramientas Industria Petrolera y Gasoducto",
+            "shortTitle": "Herramientas Industria Petrolera y Gasoducto",
+            "imgCover": "/catalogos/petroleo/maquina-petroleo-herramientas.png",
+            "imgLogo": "/logo-traupan.png",
+            "url": "/catalogos/petroleo/catalogo.htm"
+        },
+        {
+            "id": "compresores",
+            "title": "Compresores",
+            "shortTitle": "Compresores",
+            "imgCover": "/catalogos/compresores/cover.jpg",
+            "imgLogo": "/catalogos/compresores/logo.png",
+            "url": "https://www.asturcom.com.ar/"
+        },
+        {
+            "id": "corte-cortaperno-chapa",
+            "title": "Herramientas Manuales de Corte, Cortaperno y Chapa",
+            "shortTitle": "Herramientas Manuales de Corte, Cortaperno y Chapa",
+            "imgCover": "/catalogos/corte-cortaperno-chapa/10000086.JPG",
+            "imgLogo": "/logo-traupan.png",
+            "url": "/catalogos/corte-cortaperno-chapa/corte-cortaperno-chapa.htm"
+        },
+        {
+            "id": "soldar",
+            "title": "Equipos para Soldar",
+            "shortTitle": "Equipos para Soldar",
+            "imgCover": "/catalogos/equipos-soldar/image029.jpg",
+            "imgLogo": "/logo-traupan.png",
+            "url": "/catalogos/equipos-soldar/rubro17.htm"
         }
     ]
 }

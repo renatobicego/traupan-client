@@ -50,3 +50,31 @@ nav a:last-child {
 nav a:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+}
+
+P {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+h1 {
+  font-family: Times;
+  color: FF3F00;
+  font-size: x-large;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: underline;
+  text-align: center;
+}
+.gedasa {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: normal;
+  color: #006699;
+  text-decoration: underline;
+  line-height: normal;
+}

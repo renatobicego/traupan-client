@@ -29,7 +29,11 @@ const CatalogCard = ({ item }: CatalogCardProps) => {
       </CardBody>
       <CardFooter className="text-secondary flex flex-col items-center justify-start gap-2 p-4 flex-1">
         <Image alt={item.title} src={item.imgLogo} width={120} />
-        <b className="whitespace-pre-line text-center">{item.title}</b>
+        <b
+          className={`whitespace-pre-line text-center ${!item.title.includes("\n") ? "text-lg lg:text-xl" : ""}`}
+        >
+          {item.title}
+        </b>
         <Button as={Link} href={item.url} target="_blank" className="mt-auto">
           Ver Catálogo
         </Button>

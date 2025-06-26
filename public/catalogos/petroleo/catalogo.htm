@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herramientas Industria Petrolera y Gasoducto</title>
+    <link href="../styles.css" rel="stylesheet" type="text/css" />
+    <script src="../comjs.js"></script>
+    <style>
+      .content-container {
+        max-width: 1000px;
+        margin: 20px auto;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .main-title {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #ff3f00;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+      }
+
+      .subtitle {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 40px;
+        color: #333;
+      }
+
+      .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+      }
+
+      .product-card {
+        background: #f9f9f9;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition:
+          transform 0.3s,
+          box-shadow 0.3s;
+      }
+
+      .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      .product-title {
+        font-weight: bold;
+        margin-bottom: 15px;
+        font-size: 1.1em;
+        color: #333;
+      }
+
+      .product-image {
+        margin: 15px 0;
+      }
+
+      .product-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      @media (max-width: 768px) {
+        .main-title {
+          font-size: 2em;
+        }
+
+        .subtitle {
+          font-size: 1.5em;
+        }
+
+        .products-grid {
+          grid-template-columns: 1fr;
+          gap: 20px;
+        }
+
+        .content-container {
+          margin: 10px;
+          padding: 20px 15px;
+        }
+      }
+    </style>
+  </head>
+
+  <body background="../fondo.jpg">
+    <header>
+      <div class="logo-container">
+        <a href="/">
+          <img src="../logo-traupan.png" alt="Logo de Traupan" />
+        </a>
+      </div>
+      <nav>
+        <a href="/catalogo">Catálogo</a>
+        <a href="/sobre-nosotros">Sobre Nosotros</a>
+        <a href="/#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <div class="content-container">
+      <h1 class="main-title">HERRAMENTAL DE ROSCADO</h1>
+
+      <div class="products-grid">
+        <div class="product-card">
+          <h3 class="product-title">CORTATUBO CTEX</h3>
+          <div class="product-image">
+            <img src="cotatubo.gif" alt="Cortatubo CTEX" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">CORTATUBO CB Nº 22 ¼"-2"</h3>
+          <div class="product-image">
+            <img src="cotatubo2.gif" alt="Cortatubo CB N° 22" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">CORTATUBO BL Nº 21 ½"-2"</h3>
+          <div class="product-image">
+            <img src="cotatubo3.gif" alt="Cortatubo BL N° 21" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">CORTATUBO CTEX-DMR-CE</h3>
+          <div class="product-image">
+            <img
+              src="cotatubo4.gif"
+              alt="Cortatubo CTEX-DMR-CE"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">CUCHILLA</h3>
+          <div class="product-image">
+            <img src="cuchilla.gif" alt="Cuchilla" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">DADO</h3>
+          <div class="product-image">
+            <img src="dado.gif" alt="Dado" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">DADO ROSCADOR</h3>
+          <div class="product-image">
+            <img src="dador.gif" alt="Dado Roscador" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">DADO ROSCADOR</h3>
+          <div class="product-image">
+            <img src="dador2.gif" alt="Dado Roscador 2" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">FRESA</h3>
+          <div class="product-image">
+            <img src="fresa.gif" alt="Fresa" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">MACHO FRESA COMBINADO</h3>
+          <div class="product-image">
+            <img
+              src="machofresa.gif"
+              alt="Macho Fresa Combinado"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">MACHO MECHA COMBINADO</h3>
+          <div class="product-image">
+            <img
+              src="machofresa2.gif"
+              alt="Macho Mecha Combinado"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">ROSCADORA TEYS JD ½"-2"</h3>
+          <div class="product-image">
+            <img src="roscador.gif" alt="Roscadora TEYS JD" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">ROSCADORA RT-80/99 ½"-2"</h3>
+          <div class="product-image">
+            <img src="roscador2.gif" alt="Roscadora RT-80/99" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">ROSCADORA REBB ½"-2"</h3>
+          <div class="product-image">
+            <img src="roscador3.gif" alt="Roscadora REBB" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">PEINES TANGENCIALES</h3>
+          <div class="product-image">
+            <img src="peine.gif" alt="Peines Tangenciales" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">SOPORTE PARA TUBOS</h3>
+          <div class="product-image">
+            <img src="soporte.gif" alt="Soporte para Tubos" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">TERRAJA T2B ½"-2"</h3>
+          <div class="product-image">
+            <img src="Terraja.gif" alt="Terraja T2B" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <h3 class="product-title">TERRAJA OB ¼"-1¼"</h3>
+          <div class="product-image">
+            <img src="Terraja2.gif" alt="Terraja OB" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
