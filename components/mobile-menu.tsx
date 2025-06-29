@@ -5,10 +5,14 @@ import { Button } from "@heroui/button";
 import { Drawer, DrawerContent, DrawerBody } from "@heroui/drawer";
 import { useDisclosure } from "@heroui/modal";
 import Link from "next/link";
-import React from "react";
 
 const MobileMenu = () => {
-  const { isOpen, onOpen, onOpenChange } = useDisclosure();
+  const { isOpen, onOpen, onOpenChange, onClose } = useDisclosure();
+
+  // Function to close the drawer
+  const handleLinkClick = () => {
+    onClose();
+  };
 
   return (
     <>
@@ -37,6 +41,7 @@ const MobileMenu = () => {
           />
         </div>
       </Button>
+
       <Drawer
         isOpen={isOpen}
         onOpenChange={onOpenChange}
@@ -50,7 +55,11 @@ const MobileMenu = () => {
             <ul className="flex flex-col gap-4 pt-12">
               {siteConfig.navMenuItems.map((item, index) => (
                 <li key={index}>
-                  <Link href={item.href} className="text-white">
+                  <Link
+                    href={item.href}
+                    className="text-white"
+                    onClick={handleLinkClick}
+                  >
                     {item.label}
                   </Link>
                 </li>

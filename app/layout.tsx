@@ -9,6 +9,7 @@ import { Navbar } from "@/components/navbar";
 
 import { Roboto } from "next/font/google";
 import Footer from "@/components/footer";
+import WhatsappButton from "@/components/whatsapp-button";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -41,6 +42,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           {children}
+          <WhatsappButton />
           <Footer />
         </Providers>
       </body>

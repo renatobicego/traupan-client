@@ -6,6 +6,11 @@
   @apply px-6 md:px-12 lg:px-16;
 }
 
+html,
+body {
+  @apply scroll-smooth;
+}
+
 main {
   @apply flex flex-col items-center min-h-screen w-screen text-secondary padding-space overflow-hidden;
 }
