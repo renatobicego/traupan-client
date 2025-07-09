@@ -1,100 +1,108 @@
 {
-    "catalog": [
+  "catalog": [
+    {
+      "id": "impactools",
+      "title": "Herramientas Especiales \n Llaves y Herramientas para Servicio Pesado \n Llaves y Herramientas Antichispa",
+      "shortTitle": "Herramientas para servicio pesado y fabricación bajo plano",
+      "imgCover": "/catalogos/impactools/cover.png",
+      "imgLogo": "/catalogos/impactools/logo.png",
+      "url": "/catalogo/impactools",
+      "catalogUrls": [
         {
-            "id": "impactools",
-            "title": "Herramientas Especiales \n Llaves y Herramientas para Servicio Pesado \n Llaves y Herramientas Antichispa",
-            "shortTitle": "Herramientas para servicio pesado y fabricación bajo plano",
-            "imgCover": "/catalogos/impactools/cover.png",
-            "imgLogo": "/catalogos/impactools/logo.png",
-            "url": "/catalogo/impactools",
-            "catalogUrls": [
-                {
-                    "url": "/catalogos/impactools/cover.png",
-                    "title": "herramientas aisladas",
-                    "isImage": true,
-                    "sideText": "Consulte por herramientas aisladas especiales"
-                },
-                {
-                    "url": "/catalogos/impactools/servicio-pesado.pdf",
-                    "title": "herramientas servicio pesado"
-                },
-                {
-                    "url": "/catalogos/impactools/Antichispa-catalogo.pdf",
-                    "title": "herramientas antichispa"
-                }
-            ]
+          "url": "/catalogos/impactools/cover.png",
+          "title": "herramientas aisladas",
+          "isImage": true,
+          "sideText": "Consulte por herramientas aisladas especiales"
         },
         {
-            "id": "herramientas-tornos",
-            "title": "Herramientas para Tornos",
-            "shortTitle": "Herramientas para Tornos",
-            "imgCover": "/catalogos/herramientas-tornos/cover.png",
-            "imgLogo": "/logo-traupan.png",
-            "url": "/catalogos/herramientas-tornos/rubro8.htm"
+          "url": "/catalogos/impactools/servicio-pesado.pdf",
+          "title": "herramientas servicio pesado"
         },
         {
-            "id": "lubricacion",
-            "title": "Lubricacion",
-            "shortTitle": "Lubricacion",
-            "imgCover": "/catalogos/lubricacion/elementos_lubricacion.png",
-            "imgLogo": "/catalogos/lubricacion/image001.gif",
-            "url": "/catalogos/lubricacion/rubro11.htm"
-        },
-        {
-            "id": "escaleras",
-            "title": "Escaleras - Todas las Marcas",
-            "shortTitle": "Escaleras - Todas las Marcas",
-            "imgCover": "/catalogos/escaleras/cover.png",
-            "imgLogo": "/logo-traupan.png",
-            "url": "/catalogos/escaleras/rubro1.htm"
-        },
-        {
-            "id": "stihil",
-            "title": "Productos STIHL",
-            "shortTitle": "Productos STIHL",
-            "imgCover": "/catalogos/stihl/cover.png",
-            "imgLogo": "/catalogos/stihl/logo.png",
-            "url": "https://www.stihl.com/en"
-        }, 
-        {
-            "id": "seguridad-industrial",
-            "title": "Seguridad Industrial - Todas las marcas líderes",
-            "shortTitle": "Seguridad Industrial",
-            "imgCover": "/catalogos/seguridad-industrial/image015.gif",
-            "imgLogo": "/logo-traupan.png",
-            "url": "/catalogos/seguridad-industrial/rubro16.htm"
-        }, 
-        {
-            "id": "petrolera",
-            "title": "Herramientas Industria Petrolera y Gasoducto",
-            "shortTitle": "Herramientas Industria Petrolera y Gasoducto",
-            "imgCover": "/catalogos/petroleo/maquina-petroleo-herramientas.png",
-            "imgLogo": "/logo-traupan.png",
-            "url": "/catalogos/petroleo/catalogo.htm"
-        },
-        {
-            "id": "compresores",
-            "title": "Compresores",
-            "shortTitle": "Compresores",
-            "imgCover": "/catalogos/compresores/cover.jpg",
-            "imgLogo": "/catalogos/compresores/logo.png",
-            "url": "https://www.asturcom.com.ar/"
-        },
-        {
-            "id": "corte-cortaperno-chapa",
-            "title": "Herramientas Manuales de Corte, Cortaperno y Chapa",
-            "shortTitle": "Herramientas Manuales de Corte, Cortaperno y Chapa",
-            "imgCover": "/catalogos/corte-cortaperno-chapa/10000086.JPG",
-            "imgLogo": "/logo-traupan.png",
-            "url": "/catalogos/corte-cortaperno-chapa/corte-cortaperno-chapa.htm"
-        },
-        {
-            "id": "soldar",
-            "title": "Equipos para Soldar",
-            "shortTitle": "Equipos para Soldar",
-            "imgCover": "/catalogos/equipos-soldar/image029.jpg",
-            "imgLogo": "/logo-traupan.png",
-            "url": "/catalogos/equipos-soldar/rubro17.htm"
+          "url": "/catalogos/impactools/Antichispa-catalogo.pdf",
+          "title": "herramientas antichispa"
         }
-    ]
+      ]
+    },
+    {
+      "id": "herramientas-tornos",
+      "title": "Herramientas para Tornos",
+      "shortTitle": "Herramientas para Tornos",
+      "imgCover": "/catalogos/herramientas-tornos/cover.png",
+      "imgLogo": "/logo-traupan.png",
+      "url": "/catalogos/herramientas-tornos/rubro8.htm"
+    },
+    {
+      "id": "lubricacion",
+      "title": "Lubricacion",
+      "shortTitle": "Lubricacion",
+      "imgCover": "/catalogos/lubricacion/elementos_lubricacion.png",
+      "imgLogo": "/catalogos/lubricacion/image001.gif",
+      "url": "/catalogos/lubricacion/rubro11.htm"
+    },
+    {
+      "id": "escaleras",
+      "title": "Escaleras - Todas las Marcas",
+      "shortTitle": "Escaleras - Todas las Marcas",
+      "imgCover": "/catalogos/escaleras/cover.png",
+      "imgLogo": "/logo-traupan.png",
+      "url": "/catalogos/escaleras/rubro1.htm"
+    },
+    {
+      "id": "stihil",
+      "title": "Productos STIHL",
+      "shortTitle": "Productos STIHL",
+      "imgCover": "/catalogos/stihl/cover.png",
+      "imgLogo": "/catalogos/stihl/logo.png",
+      "url": "https://www.stihl.com/en"
+    },
+    {
+      "id": "seguridad-industrial",
+      "title": "Seguridad Industrial - Todas las marcas líderes",
+      "shortTitle": "Seguridad Industrial",
+      "imgCover": "/catalogos/seguridad-industrial/image015.gif",
+      "imgLogo": "/logo-traupan.png",
+      "url": "/catalogos/seguridad-industrial/rubro16.htm"
+    },
+    {
+      "id": "petrolera",
+      "title": "Herramientas Industria Petrolera y Gasoducto",
+      "shortTitle": "Herramientas Industria Petrolera y Gasoducto",
+      "imgCover": "/catalogos/petroleo/maquina-petroleo-herramientas.png",
+      "imgLogo": "/logo-traupan.png",
+      "url": "/catalogos/petroleo/catalogo.htm"
+    },
+    {
+      "id": "compresores",
+      "title": "Compresores",
+      "shortTitle": "Compresores",
+      "imgCover": "/catalogos/compresores/cover.jpg",
+      "imgLogo": "/catalogos/compresores/logo.png",
+      "url": "https://www.asturcom.com.ar/"
+    },
+    {
+      "id": "corte-cortaperno-chapa",
+      "title": "Herramientas Manuales de Corte, Cortaperno y Chapa",
+      "shortTitle": "Herramientas Manuales de Corte, Cortaperno y Chapa",
+      "imgCover": "/catalogos/corte-cortaperno-chapa/10000086.JPG",
+      "imgLogo": "/logo-traupan.png",
+      "url": "/catalogos/corte-cortaperno-chapa/corte-cortaperno-chapa.htm"
+    },
+    {
+      "id": "soldar",
+      "title": "Equipos para Soldar",
+      "shortTitle": "Equipos para Soldar",
+      "imgCover": "/catalogos/equipos-soldar/image029.jpg",
+      "imgLogo": "/logo-traupan.png",
+      "url": "/catalogos/equipos-soldar/rubro17.htm"
+    },
+    {
+      "id": "energia-solar",
+      "title": "Energia Solar",
+      "shortTitle": "Energia Solar",
+      "imgCover": "/catalogos/energia-solar/cover.png",
+      "imgLogo": "/catalogos/energia-solar/logo.png",
+      "url": "/catalogos/energia-solar/catalogo.pdf"
+    }
+  ]
 }

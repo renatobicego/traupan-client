@@ -6,7 +6,10 @@ import { FaEnvelope, FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col items-center gap-4 w-full relative z-10 max-md:mb-16">
+    <section
+      id="contacto"
+      className="flex flex-col items-center gap-4 w-full relative z-10 max-md:mb-16"
+    >
       <h2>Contáctese con Nosotros</h2>
       <p className="md:w-2/3 xl:w-1/2 text-center">
         Estamos aquí para ayudarle. Si tiene alguna pregunta, necesita

@@ -56,7 +56,9 @@ export const Navbar = () => {
             </NavbarItem>
           ))}
         </ul>
-        <Button color="secondary">Contacto</Button>
+        <Button color="secondary" as={Link} href={siteConfig.urls.contact}>
+          Contacto
+        </Button>
       </NavbarContent>
 
       <NavbarContent className="md:hidden" justify="end">

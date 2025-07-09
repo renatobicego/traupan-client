@@ -8,6 +8,8 @@ const urls = {
 export const siteConfig = {
   name: "Traupan",
   description: "Herramientas y máquinas para industrias.",
+  url: "https://traupan.com.ar",
+  thumbnail: "logo-fondo-blanco.png",
   urls,
   email: "administracion@traupan.com.ar",
   phone: {
@@ -20,6 +22,10 @@ export const siteConfig = {
   },
   direction: {
     label: "Ciudad Autónoma de Buenos Aires, Argentina",
+    streetAddres: "Constitución 1309",
+    locality: "Constitución",
+    region: "Ciudad Autónoma de Buenos Aires",
+    postalCode: "C1151",
     url: "https://g.co/kgs/uApZJtG",
   },
   navItems: [

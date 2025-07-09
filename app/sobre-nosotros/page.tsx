@@ -1,7 +1,25 @@
 import { siteConfig } from "@/config/site";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
+
+export const metadata: Metadata = {
+  title: "Sobre Nosotros",
+  description:
+    "Conozca más sobre Traupan, su misión y los productos que ofrecemos para satisfacer las necesidades de la industria.",
+  keywords: [
+    "Traupan",
+    "herramientas industriales",
+    "maquinaria pesada",
+    "equipos de seguridad",
+    "materiales de construcción",
+    "accesorios industriales",
+    "servicio al cliente",
+    "calidad garantizada",
+    "asesoramiento experto",
+  ],
+};
 
 export default function AboutUs() {
   return (

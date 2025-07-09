@@ -1,0 +1,20 @@
+{
+  "name": "Traupan SA",
+  "short_name": "Traupan",
+  "description": "Herramientas y máquinas para industrias",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F0EEEF",
+  "icons": [
+    {
+      "src": "/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,6 +1,13 @@
 import CatalogCard from "@/components/catalog-card";
 import catalogItems from "../../data/catalog.json";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Catálogo",
+  description:
+    "Descubre nuestro catálogo de herramientas y maquinaria industrial. Ofrecemos una amplia gama de productos de alta calidad para satisfacer todas tus necesidades industriales.",
+};
 
 export default function CatalogoPage() {
   return (
