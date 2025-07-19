@@ -1,4 +1,5 @@
 import Button from "@/components/button";
+import ContactChips from "@/components/contact-chips";
 import { siteConfig } from "@/config/site";
 import { Link } from "@heroui/link";
 import Image from "next/image";
@@ -10,7 +11,7 @@ const HeroSection = () => {
         <h1>Herramientas y máquinas para industrias</h1>
         <p>
           Empresa orientada a la industria del petróleo, gas y minería,
-          especializada en herramientas especiales y fabricadas bajo plano.
+          especializada en herramientas especiales y fabricación bajo plano.
           Atendida por sus propios dueños.
         </p>
         <menu className="flex items-center gap-2 md:gap-4">
@@ -21,6 +22,7 @@ const HeroSection = () => {
             Hace tu Consulta
           </Button>
         </menu>
+        <ContactChips customClassName="!justify-start !items-start !w-full" />
       </div>
       <Image
         unoptimized

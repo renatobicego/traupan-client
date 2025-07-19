@@ -37,7 +37,7 @@
       "title": "Lubricacion",
       "shortTitle": "Lubricacion",
       "imgCover": "/catalogos/lubricacion/elementos_lubricacion.png",
-      "imgLogo": "/catalogos/lubricacion/image001.gif",
+      "imgLogo": "/catalogos/lubricacion/logo.png",
       "url": "/catalogos/lubricacion/rubro11.htm"
     },
     {
@@ -82,8 +82,8 @@
     },
     {
       "id": "corte-cortaperno-chapa",
-      "title": "Herramientas Manuales de Corte, Cortaperno y Chapa",
-      "shortTitle": "Herramientas Manuales de Corte, Cortaperno y Chapa",
+      "title": "Herramientas Manuales, Cortaperno y Chapa",
+      "shortTitle": "Herramientas Manuales, Cortaperno y Chapa",
       "imgCover": "/catalogos/corte-cortaperno-chapa/10000086.JPG",
       "imgLogo": "/logo-traupan.png",
       "url": "/catalogos/corte-cortaperno-chapa/corte-cortaperno-chapa.htm"

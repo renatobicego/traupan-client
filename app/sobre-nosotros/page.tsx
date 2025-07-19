@@ -44,14 +44,6 @@ export default function AboutUs() {
               productos duraderos y eficientes.
             </p>
           </div>
-          <Image
-            src="/logo-fondo-blanco.png"
-            alt="logo de Traupan con fondo blanco"
-            width={325}
-            height={247}
-            className="object-cover"
-            unoptimized
-          />
         </div>
         <div className="flex flex-col items-start justify-between gap-4">
           <h2 className="heading3">Nuestra Misión</h2>

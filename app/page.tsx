@@ -27,7 +27,7 @@ export default function Home() {
         unoptimized
       />
       <WeAreProviders />
-      <Brands />
+      {/* <Brands /> */}
       <Contact />
     </main>
   );
