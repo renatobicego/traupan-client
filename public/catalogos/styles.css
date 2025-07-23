@@ -78,3 +78,10 @@ h1 {
   text-decoration: underline;
   line-height: normal;
 }
+
+@media (max-width: 768px) {
+  .aeronautica-image {
+    width: 100%;
+    height: auto;
+  }
+}
