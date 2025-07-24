@@ -12,7 +12,7 @@ const ContactForm = () => {
   const { submit: onSubmit } = useWeb3forms({
     access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "",
     settings: {
-      from_name: "Ubnet Web",
+      from_name: "Traupan Web",
       subject: "Nuevo mensaje de contacto",
     },
     onSuccess: () => {
