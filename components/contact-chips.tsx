@@ -32,7 +32,7 @@ const WhatsAppChip = () => {
       href={`https://wa.me/${siteConfig.whatsapp.number}`}
       target="_blank"
       aria-label="WhatsApp de Traupan"
-      className="text-white not-italic flex gap-2 items-center"
+      className="text-white not-italic flex gap-2 items-center max-md:text-sm"
     >
       <FaWhatsapp className="size-5" />
       {siteConfig.whatsapp.label}
@@ -42,7 +42,7 @@ const WhatsAppChip = () => {
 
 const MDScreenContactChips = () => {
   return (
-    <div className=" items-center gap-2 px-4 py-2 bg-secondary rounded-lg hidden md:flex">
+    <div className="max-md:text-sm items-center gap-2 px-4 py-2 bg-secondary rounded-lg hidden md:flex">
       <PhoneChip />
       /
       <WhatsAppChip />
@@ -53,10 +53,10 @@ const MDScreenContactChips = () => {
 const SmallScreenContactChips = () => {
   return (
     <>
-      <div className="flex items-center gap-2 px-4 py-2 bg-secondary rounded-lg md:hidden">
+      <div className="max-md:text-sm flex items-center gap-2 px-4 py-2 bg-secondary rounded-lg md:hidden">
         <PhoneChip />
       </div>
-      <div className="flex items-center gap-2 px-4 py-2 bg-secondary rounded-lg md:hidden">
+      <div className="max-md:text-sm flex items-center gap-2 px-4 py-2 bg-secondary rounded-lg md:hidden">
         <WhatsAppChip />
       </div>
     </>
@@ -66,7 +66,7 @@ const SmallScreenContactChips = () => {
 const ContactChips: React.FC<ContactChipsProps> = ({ customClassName }) => {
   return (
     <address
-      className={` lg:w-2/3 flex items-center gap-4 text-white justify-center flex-wrap ${customClassName}`}
+      className={` lg:w-2/3 flex items-center gap-4 text-white justify-center flex-wrap ${customClassName} max-md:text-sm`}
     >
       <div className="flex items-center gap-2 px-4 py-2 bg-secondary rounded-lg">
         <FaEnvelope className="size-4" />
