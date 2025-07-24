@@ -8,7 +8,7 @@ import useWeb3forms from "@web3forms/react";
 import React from "react";
 import { useForm } from "react-hook-form";
 const ContactForm = () => {
-  const { handleSubmit, register } = useForm();
+  const { handleSubmit, register, reset } = useForm();
   const { submit: onSubmit } = useWeb3forms({
     access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "",
     settings: {
@@ -16,6 +16,7 @@ const ContactForm = () => {
       subject: "Nuevo mensaje de contacto",
     },
     onSuccess: () => {
+      reset();
       addToast({
         title: "Mensaje enviado",
         description:
