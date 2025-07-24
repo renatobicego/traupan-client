@@ -1,3 +1,4 @@
+import ContactChips from "@/components/contact-chips";
 import { siteConfig } from "@/config/site";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -113,43 +114,7 @@ export default function AboutUs() {
             asesoramiento o quiere conocer más sobre nuestros productos y
             servicios, no dude en ponerse en contacto con nosotros a través de
           </p>
-          <address className="flex items-center gap-4 text-white justify-center flex-wrap">
-            <div className="flex items-center gap-2 px-4 py-2 bg-secondary rounded-lg">
-              <FaEnvelope className="size-4" />
-              <Link
-                target="_blank"
-                className="text-white not-italic"
-                href={`mailto:${siteConfig.email}`}
-                aria-label="Email de Traupan"
-              >
-                {siteConfig.email}
-              </Link>
-            </div>
-            <div className="flex items-center gap-2 px-4 py-2 bg-secondary rounded-lg">
-              <FaPhone className="size-4" />
-              <Link
-                href={`
-             tel:${siteConfig.phone.number}
-            `}
-                target="_blank"
-                aria-label="Teléfono de Traupan"
-                className="text-white not-italic"
-              >
-                {siteConfig.phone.label}
-              </Link>
-              /
-              <Link
-                href={`
-             https://wa.me/${siteConfig.whatsapp.number}
-            `}
-                target="_blank"
-                aria-label="WhatsApp de Traupan"
-                className="text-white not-italic  "
-              >
-                {siteConfig.whatsapp.label}
-              </Link>
-            </div>
-          </address>
+          <ContactChips customClassName="lg:w-full !justify-start" />
         </div>
       </section>
     </main>
