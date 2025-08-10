@@ -103,6 +103,24 @@
       "imgCover": "/catalogos/energia-solar/cover.png",
       "imgLogo": "/catalogos/energia-solar/logo.png",
       "url": "/catalogos/energia-solar/catalogo.pdf"
+    },
+    {
+      "id": "valvulas",
+      "title": "Válvulas",
+      "shortTitle": "Válvulas",
+      "imgCover": "/catalogos/valvulas/cover.png",
+      "imgLogo": "/logo-traupan.png",
+      "url": "/catalogo/valvulas",
+      "catalogUrls": [
+        {
+          "url": "/catalogos/valvulas/industriales.pdf",
+          "title": "Válvulas Industriales"
+        },
+        {
+          "url": "/catalogos/valvulas/varias.pdf",
+          "title": "Válvulas Varias"
+        }
+      ]
     }
   ]
 }
