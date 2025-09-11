@@ -20,7 +20,10 @@ const CatalogCard = ({ item }: CatalogCardProps) => {
       <CardBody className="overflow-visible p-0 flex-initial">
         <Image
           alt={item.title}
-          className="w-full object-cover lg:h-[30vh]"
+          className="w-full aspect-square"
+          classNames={{
+            img: "w-full object-cover h-full",
+          }}
           radius="lg"
           shadow="sm"
           src={item.imgCover}

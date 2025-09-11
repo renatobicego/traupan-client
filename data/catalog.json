@@ -4,7 +4,7 @@
       "id": "impactools",
       "title": "Herramientas Especiales \n Llaves y Herramientas para Servicio Pesado \n Llaves y Herramientas Antichispa",
       "shortTitle": "Herramientas para servicio pesado y fabricación bajo plano",
-      "imgCover": "/catalogos/impactools/cover.png",
+      "imgCover": "/catalogos/petroleo/maquina-petroleo-herramientas.png",
       "imgLogo": "/catalogos/impactools/logo.png",
       "url": "/catalogo/impactools",
       "catalogUrls": [
@@ -30,7 +30,7 @@
       "shortTitle": "Herramientas para Tornos",
       "imgCover": "/catalogos/herramientas-tornos/cover.png",
       "imgLogo": "/logo-traupan.png",
-      "url": "/catalogos/herramientas-tornos/rubro8.htm"
+      "url": "https://latintools.com.ar/pdf/catalogo_promociones.pdf"
     },
     {
       "id": "lubricacion",
@@ -68,7 +68,7 @@
       "id": "petrolera",
       "title": "Herramientas Industria Petrolera y Gasoducto",
       "shortTitle": "Herramientas Industria Petrolera y Gasoducto",
-      "imgCover": "/catalogos/petroleo/maquina-petroleo-herramientas.png",
+      "imgCover": "/catalogos/petroleo/cover.png",
       "imgLogo": "/logo-traupan.png",
       "url": "/catalogos/petroleo/catalogo.htm"
     },
