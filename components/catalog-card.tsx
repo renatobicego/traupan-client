@@ -17,7 +17,12 @@ interface CatalogCardProps {
 const CatalogCard = ({ item }: CatalogCardProps) => {
   return (
     <Card className="bg-white" shadow="sm">
-      <CardBody className="overflow-visible p-0 flex-initial">
+      <CardBody
+        as={Link}
+        href={item.url}
+        isExternal={true}
+        className="overflow-visible p-0 flex-initial"
+      >
         <Image
           alt={item.title}
           className="w-full aspect-square"
